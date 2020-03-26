@@ -1,8 +1,6 @@
 
 /*
-Jocelyn M. Rodriguez
-March 25th 2020
-Homework#1
+Created by Jocelyn M. Rodriguez on March 25th 2020
 Input: No User Input
 Output: the data for each patient entering the Emergency Room
 Purpose: To collect and display each patients' name and list of symptoms
