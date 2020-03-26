@@ -20,7 +20,7 @@ struct AnAnimal // Build an Animal
 
 let myAnimal1: AnAnimal = AnAnimal(animalType: "dog", color: "black", tail: true);
 let myAnimal2: AnAnimal = AnAnimal(animalType: "cat", color: "grey", tail: true);
-let myAnimal3: AnAnimal = AnAnimal(animalType: "spider", color: "brown", tail: false)
+let myAnimal3: AnAnimal = AnAnimal(animalType: "spider", color: "brown", tail: false);
 
 // print statement for each Animal that was built
 
