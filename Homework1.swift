@@ -24,9 +24,9 @@ let myAnimal3: AnAnimal = AnAnimal(animalType: "spider", color: "brown", tail: f
 
 // print statement for each Animal that was built
 
-print(myAnimal1)
-print(myAnimal2)
-print(myAnimal3)
+print(myAnimal1);
+print(myAnimal2);
+print(myAnimal3);
 
 
 
