@@ -16,7 +16,7 @@ struct aPatient //Building a patient form for Potential COVID-19 testing
     var ShortnessOfBreath: Bool    // Does the patient present shortness of breath?
 }
 
-// Construct data for each Patient
+// Construct instances for each Patient
 
 let patient1: aPatient = aPatient(NameOfPatient: "Mary B. Woolsworth", Fever: true, Cough: true, ShortnessOfBreath: false);
 let patient2: aPatient = aPatient(NameOfPatient: "Blake Davis", Fever: false, Cough: true, ShortnessOfBreath: false);
