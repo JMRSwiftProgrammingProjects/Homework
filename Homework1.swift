@@ -3,31 +3,42 @@ Jocelyn M. Rodriguez
 March 25th 2020
 Homework#1
 Input: No User Input
-Output: the data in MyAnimal1,MyAnimal2,MyAnimal3
-Purpose: N/A
+Output: Each Animals Data
+Purpose: Print out data about animals 
 */
-
-import UIKit
 
 struct Animal // Build an Animal
 {
-    var animalType: String;   // variable that holds a character for animalType
-    var color: String;        // variable that holds a character for color
-    var tail: Bool;           // Boolean that holds either true or false for the animal's tail
+    var animalType: String // variable that holds a character for animalType
+    var color: String     // variable that holds a character for color
+    var tail: Bool       // Boolean that holds either true or false for the animal's tail
+    
+    func animalData()
+    {
+        print("What kind of animal? \(animalType).");
+        print("What color is the animal? \(color).");
+        print("Does the animal have a tail? \(tail).");
+        print();
+
+         }
+        
+    }
+
+//construct data for each animal with an array
+
+let animals:[Animal] = [
+Animal(animalType: "dog",    color: "black", tail: true),
+Animal(animalType: "cat",    color: "grey",  tail: true),
+Animal(animalType: "spider", color: "brown", tail: false)
+];
+
+//Print the animal data
+for Animal: Animal in animals{
+    Animal.animalData();
+    
 }
-
-// construct each animal individually
-
-let myAnimal1: Animal = Animal(animalType: "dog",    color: "black", tail: true);
-let myAnimal2: Animal = Animal(animalType: "cat",    color: "grey",  tail: true);
-let myAnimal3: Animal = Animal(animalType: "spider", color: "brown", tail: false);
-
-// print statement for each Animal that was built
-
-print(myAnimal1);
-print(myAnimal2);
-print(myAnimal3);
-
-
-
-
+//Print the array 
+for Animal: Animal in animals
+{
+    print(Animal);
+}
