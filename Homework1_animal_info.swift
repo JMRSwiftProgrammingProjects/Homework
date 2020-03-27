@@ -32,7 +32,7 @@ Animal(animalType: "cat",    color: "grey",  tail: true),
 Animal(animalType: "spider", color: "brown", tail: false)
 ];
 
-//Print the animal data
+// For loop - For every “animal” in “animals”, execute this code.
 for Animal: Animal in animals
 {
     Animal.animalData(); 
