@@ -30,7 +30,6 @@ struct Patient //Building a patient form for Potential COVID-19 testing
 // Construct data for each Patient with an array 
 let patients: [Patient] = 
 [
-
     Patient(nameOfPatient: "Mary B. Woolsworth",   fever: true,  cough: true,  shortnessOfBreath: false),
     Patient(nameOfPatient: "Blake Davis",          fever: false, cough: true,  shortnessOfBreath: false),
     Patient(nameOfPatient: "Melissa Cruz-Santana", fever: false, cough: true,  shortnessOfBreath: true),
