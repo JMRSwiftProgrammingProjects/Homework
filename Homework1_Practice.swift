@@ -10,10 +10,10 @@ import UIKit
 
 struct Patient //Building a patient form for Potential COVID-19 testing
 {
-    var nameOfPatient: String      // Name of each patient
-    var fever: Bool                // Does the patient present a fever?
-    var cough: Bool                // Does the patient present a cough?
-    var shortnessOfBreath: Bool    // Does the patient present shortness of breath?
+    var nameOfPatient: String;      // Name of each patient
+    var fever: Bool;                // Does the patient present a fever?
+    var cough: Bool;                // Does the patient present a cough?
+    var shortnessOfBreath: Bool;    // Does the patient present shortness of breath?
     
     func patientData()
     {
