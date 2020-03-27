@@ -26,7 +26,7 @@ struct Patient //Building a patient form for Potential COVID-19 testing
     }
 }
 
-// Construct data for each Patient
+// Construct data for each Patient with an array 
 let patients: [Patient] = 
 [
 
@@ -37,7 +37,7 @@ let patients: [Patient] =
 
 ];
 
-for patient: Patient in patients // 
+for patient: Patient in patients // For loop - For every “patient” in “patients”, execute this code.
 {
 
     patient.patientData();
