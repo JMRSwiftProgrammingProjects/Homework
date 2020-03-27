@@ -18,10 +18,10 @@ struct Patient //Building a patient form for Potential COVID-19 testing
     
     func patientData()
     {
-        print("Hello. My name is \(nameOfPatient).");
-        print("Do you have a fever? \(fever).");
-        print("Do you have a cough? \(cough).");
-        print("Do you have shortness of breath? \(shortnessOfBreath).");
+        print(""Hello. My name is \(nameOfPatient).
+                Do you have a fever? \(fever).
+                Do you have a cough? \(cough).
+                Do you have shortness of breath? \(shortnessOfBreath)."");
         print();
     
     }
