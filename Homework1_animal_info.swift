@@ -15,9 +15,10 @@ struct Animal // Build an Animal
     
     func animalData()
     {
-        print("What kind of animal? \(animalType).");
-        print("What color is the animal? \(color).");
-        print("Does the animal have a tail? \(tail).");
+        print("""
+                What kind of animal? \(animalType)
+                What color is the animal? \(color)
+                Does the animal have a tail? \(tail) """);
         print();
 
          }
