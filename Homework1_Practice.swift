@@ -8,40 +8,48 @@ Purpose: To collect and display each patients' name and list of symptoms
 
 import UIKit
 
-struct aPatient //Building a patient form for Potential COVID-19 testing
+struct Patient //Building a patient form for Potential COVID-19 testing
 {
-    var NameOfPatient: String      // Name of each patient
-    var Fever: Bool                // Does the patient present a fever?
-    var Cough: Bool                // Does the patient present a cough?
-    var ShortnessOfBreath: Bool    // Does the patient present shortness of breath?
+    var nameOfPatient: String      // Name of each patient
+    var fever: Bool                // Does the patient present a fever?
+    var cough: Bool                // Does the patient present a cough?
+    var shortnessOfBreath: Bool    // Does the patient present shortness of breath?
     
     func patientData()
     {
-        print("Hello. My name is \(NameOfPatient).");
-        print("Do you have a fever? \(Fever).");
-        print("Do you have a cough? \(Cough).");
-        print("Do you have shortness of breath? \(ShortnessOfBreath).");
-        print("                                        ");
+        print("Hello. My name is \(nameOfPatient).");
+        print("Do you have a fever? \(fever).");
+        print("Do you have a cough? \(cough).");
+        print("Do you have shortness of breath? \(shortnessOfBreath).");
+        print();
     
     }
 }
 
 // Construct data for each Patient
+let patients: [Patient] = 
+[
 
-let patient1: aPatient = aPatient(NameOfPatient: "Mary B. Woolsworth", Fever: true, Cough: true, ShortnessOfBreath: false);
-let patient2: aPatient = aPatient(NameOfPatient: "Blake Davis", Fever: false, Cough: true, ShortnessOfBreath: false);
-let patient3: aPatient = aPatient(NameOfPatient: "Melissa Cruz-Santana", Fever: false, Cough: true, ShortnessOfBreath: true);
-let patient4: aPatient = aPatient(NameOfPatient: "Tosan Abiola", Fever: false, Cough: false, ShortnessOfBreath: false);
+    Patient(nameOfPatient: "Mary B. Woolsworth",   fever: true,  cough: true,  shortnessOfBreath: false),
+    Patient(nameOfPatient: "Blake Davis",          fever: false, cough: true,  shortnessOfBreath: false),
+    Patient(nameOfPatient: "Melissa Cruz-Santana", fever: false, cough: true,  shortnessOfBreath: true),
+    Patient(nameOfPatient: "Tosan Abiola",         fever: false, cough: false, shortnessOfBreath: false)
 
-patient1.patientData();
-patient2.patientData();
-patient3.patientData();
-patient4.patientData();
+];
+
+for patient: Patient in patients // 
+{
+
+    patient.patientData();
+
+}
 
 // Print the patient data
+for patient: Patient in patients {
 
-print(patient1);
-print(patient2);
-print(patient3);
-print(patient4);
+    print(patient);
+
+}
+
+
 
