@@ -33,10 +33,11 @@ Animal(animalType: "spider", color: "brown", tail: false)
 ];
 
 //Print the animal data
-for Animal: Animal in animals{
-    Animal.animalData();
-    
+for Animal: Animal in animals
+{
+    Animal.animalData(); 
 }
+
 //Print the array 
 for Animal: Animal in animals
 {
