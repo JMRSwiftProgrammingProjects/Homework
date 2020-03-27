@@ -11,9 +11,9 @@ import UIKit
 
 struct Animal // Build an Animal
 {
-    var animalType: String // variable that holds a character for animalType
-    var color: String     // variable that holds a character for color
-    var tail: Bool       // Boolean that holds either true or false for the animal's tail
+    var animalType: String;   // variable that holds a character for animalType
+    var color: String;        // variable that holds a character for color
+    var tail: Bool;           // Boolean that holds either true or false for the animal's tail
 }
 
 // construct each animal individually
