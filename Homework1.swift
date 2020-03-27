@@ -18,8 +18,8 @@ struct Animal // Build an Animal
 
 // construct each animal individually
 
-let myAnimal1: Animal = Animal(animalType: "dog", color: "black", tail: true);
-let myAnimal2: Animal = Animal(animalType: "cat", color: "grey", tail: true);
+let myAnimal1: Animal = Animal(animalType: "dog",    color: "black", tail: true);
+let myAnimal2: Animal = Animal(animalType: "cat",    color: "grey",  tail: true);
 let myAnimal3: Animal = Animal(animalType: "spider", color: "brown", tail: false);
 
 // print statement for each Animal that was built
