@@ -45,7 +45,8 @@ for patient: Patient in patients // For loop - For every “patient” in “pat
 }
 
 // Print the patient data
-for patient: Patient in patients {
+for patient: Patient in patients 
+{
 
     print(patient);
 
