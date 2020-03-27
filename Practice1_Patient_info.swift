@@ -19,7 +19,9 @@ struct Patient //Building a patient form for Potential COVID-19 testing
     func patientData()
     {
         //Multiline string literals
-        print("""Hello. My name is \(nameOfPatient). 
+        
+        print("""
+                Hello. My name is \(nameOfPatient). 
                 Do you have a fever? \(fever).
                 Do you have a cough? \(cough).
                 Do you have shortness of breath? \(shortnessOfBreath).""");
