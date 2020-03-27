@@ -15,7 +15,9 @@ struct Animal // Build an Animal
     
     func animalData()
     {
-        print("""
+   
+        //Multi-string literal
+       print("""
                 What kind of animal? \(animalType)
                 What color is the animal? \(color)
                 Does the animal have a tail? \(tail) """);
